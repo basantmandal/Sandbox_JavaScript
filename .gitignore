@@ -39,7 +39,8 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules/*
+!/node_modules/.gitkeep
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -81,7 +82,8 @@ web_modules/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
-.parcel-cache
+.parcel-cache/*
+!.parcel-cache/.gitkeep
 
 # Next.js build output
 .next
@@ -89,7 +91,8 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+dist/*
+!/dist/.gitkeep
 
 # Gatsby files
 .cache/
