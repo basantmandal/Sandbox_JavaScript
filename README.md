@@ -1,6 +1,6 @@
 # JavaScript - Sandbox
 
-JavaScript Sandbox for Interview or Testing with TailwindCSS. Prettier also configured for automatic code formatting.
+JavaScript Sandbox for Interview or Testing with TailwindCSS & Prettier Code Format automatic code formatting during save.
 
 ## Use
 
